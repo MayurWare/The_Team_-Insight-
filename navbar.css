@@ -12,7 +12,8 @@
 /*navbar styling*/
 
 .logo-tint-blue {
-    background-color:rgb(191, 218, 228);
+    background-color:#87cefa;
+    height: 65px;
 }
 
 .a-nav {
@@ -26,6 +27,8 @@
 .a-nav:hover {
     color:547A87;
     text-decoration:none;
+    border-bottom: 2px solid white;
+    
 }
 
 .white-bar {
@@ -37,6 +40,38 @@
     text-decoration: none;
 }
 
-.a-logo:hover{
-    border:1px solid color:547A87;
+.a-logo:hover {
+    border:1px solid; color : 547A87; 
+ }
+.navbar-collapse {
+    background-color: #87cefa;
 }
+/* Body Designing */
+ul {
+    list-style: none;
+}
+.main {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+/* Flex Designing  */
+
+/* Bottom Designing */
+.bottom img {
+    height: 100px;
+    width: 100px;
+}
+#insightsocial {
+    display: flex;
+    justify-content: space-around;
+}
+.sublogo {
+    display: flex;
+    justify-content: space-around;
+}
+
